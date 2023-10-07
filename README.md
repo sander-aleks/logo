@@ -99,7 +99,8 @@ Check the [Creating pages example](https://inertiajs.com/pages#creating-pages) t
 - A list of genres (At this step use fake data for the list)
 - "edit" & "delete" actions for each list element. (also placeholders)
 
-
+Genres page
+![Alt text](image-1.png)
 
 ### Resources
 - [Creating pages example](https://inertiajs.com/pages#creating-pages)
