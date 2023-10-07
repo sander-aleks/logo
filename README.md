@@ -61,7 +61,7 @@ To achive this, do the following:
 - [Resource Controllers](https://laravel.com/docs/10.x/controllers#resource-controllers)
 
 ## 2. Routes and navigation
-_Authenticated user should be able to see a list of books & a list of genres by clicking on the respective navigation link in the dashboard view._
+_**Authenticated** user should be able to see books & genres navigation elements in the navbar._
 
 1. **Implement routes for all the resource controller actions.**
 
@@ -79,5 +79,31 @@ The end result should look like this:
 - [Actions Handled By Resource Controller](https://laravel.com/docs/10.x/controllers#actions-handled-by-resource-controller)
 - [Named Routes](https://laravel.com/docs/10.x/routing#named-routes)
 - [Route(): helper method](https://github.com/tighten/ziggy)
+
+
+## 3. Genres - Index (Vue)
+_User should be able to navigate to the Genres page and see a list of genres, a "Add new genre" button and edit, delete actions for each individual genre._
+
+1. **Create an index page for the genres and render the page using the correct controller action.**
+
+Make sure that the genres index view extends `AuthenticatedLayout.vue`
+
+
+2. **Pass genres along to the frontend.**
+
+Check the [Creating pages example](https://inertiajs.com/pages#creating-pages) to see how `user` is passed down from controller to the frontend view as a refrence.
+
+3. **Add the following elements to the page**
+- Heading "Genres"
+- "Add genre" link
+- A list of genres (At this step use fake data for the list)
+- "edit" & "delete" actions for each list element. (also placeholders)
+
+
+
+### Resources
+- [Creating pages example](https://inertiajs.com/pages#creating-pages)
+
+
 
 
