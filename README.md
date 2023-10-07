@@ -65,11 +65,11 @@ _**Authenticated** user should be able to see books & genres navigation elements
 
 1. **Implement routes for all the resource controller actions.**
 
-**!!** Make sure to name the routes.
+    **!!** Make sure to name the routes.
 
 2. **Add `Books` & `Genres` navigation elements to the authenticated users navbar.**
 
-Find the correct place to add the navigation links and add utilize the `route()` helper method with the correct route name to get the `href` value.
+    Find the correct place to add the navigation links and add utilize the `route()` helper method with the correct route name to get the `href` value.
 
 The end result should look like this: 
 ![Result](image.png)
@@ -86,24 +86,50 @@ _User should be able to navigate to the Genres page and see a list of genres, a 
 
 1. **Create an index page for the genres and render the page using the correct controller action.**
 
-Make sure that the genres index view extends `AuthenticatedLayout.vue`
+    Make sure that the genres index view extends `AuthenticatedLayout.vue`
 
 
 2. **Pass genres along to the frontend.**
 
-Check the [Creating pages example](https://inertiajs.com/pages#creating-pages) to see how `user` is passed down from controller to the frontend view as a refrence.
+    Check the [Creating pages example](https://inertiajs.com/pages#creating-pages) to see how `user` is passed down from controller to the frontend view as a refrence.
 
 3. **Add the following elements to the page**
-- Heading "Genres"
-- "Add genre" link
-- A list of genres (At this step use fake data for the list)
-- "edit" & "delete" actions for each list element. (also placeholders)
+    - Heading "Genres"
+    - "Add genre" link
+    - A list of genres (At this step use fake data for the list)
+    - "edit" & "delete" actions for each list element. (also placeholders)
 
 Genres page
 ![Alt text](image-1.png)
 
 ### Resources
 - [Creating pages example](https://inertiajs.com/pages#creating-pages)
+
+## 3. Genres - Create (Vue)
+- _By clicking on the "Add genres" button user should be redirected to a create genres form._
+- _User should be able to see validation error for the "name" field when submiting an empty form_
+- _On a successful form submission, user should be redirected back to the index view and the new entry should be visible in the list._
+
+1. **Add a Create page for the "add new genre" form and render the page using the correct controller action.**
+
+2. **Implement the form using `useForm()` helper method**
+
+    Check the inertia docs for form helper method or use Login & Register forms as a guide.
+
+3. **Submit the form to the correct controller action**
+
+4. *Replace the placeholder data in the index views list with the newly created genre*
+
+5. **Add edit & delete actions for the list element**
+
+    Use the `route()` helper method to bind the `href` values.
+    
+    Implement the delete action using Inertia `<Link>` element. [Link method](https://inertiajs.com/links#method)
+
+    **!!** Use the correct HTTP method for delete action.
+### Resources
+[useForm(): helper method]https://inertiajs.com/forms#form-helper
+
 
 
 
