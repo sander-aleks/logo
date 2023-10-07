@@ -71,7 +71,8 @@ _Authenticated user should be able to see a list of books & a list of genres by 
 
 Find the correct place to add the navigation links and add utilize the `route()` helper method with the correct route name to get the `href` value.
 
-
+The end result should look like this: 
+![Result](image.png)
 
 
 ### Resources
