@@ -89,6 +89,8 @@ _User should be able to navigate to the Genres page and see a list of genres, a 
 
     Make sure that the genres index view extends `AuthenticatedLayout.vue`
 
+    **!!** This page & all future pages should have the same layout as `Dashboard.vue`
+
 
 2. **Pass genres along to the frontend.**
 
