@@ -45,11 +45,11 @@ To achive this, do the following:
 - `Genre`
 
 2. **Create migrations for the models**
-- `Genres` table should have the follwing fields:
+- `Genres` table should have the following fields:
 
     `id`, `name`, `created_at`,`updated_at`
 
-- `Books` table should have the follwing fields:
+- `Books` table should have the following fields:
 
     `id`,`genre_id`,`title`,`description`,`image_path`,`rating`,    `created_at`,`updated_at`
 
