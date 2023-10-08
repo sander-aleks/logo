@@ -105,6 +105,7 @@ Genres page
 
 ### Resources
 - [Creating pages example](https://inertiajs.com/pages#creating-pages)
+- [Inertia: Link](https://inertiajs.com/links)
 
 ## 4. Genres - Create (Vue)
 - _By clicking on the "Add genres" button user should be redirected to a create genres form._
