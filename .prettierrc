@@ -1,0 +1,9 @@
+{
+    "arrowParens": "avoid",
+    "editorconfig": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "vueIndentScriptAndStyle": false
+}
