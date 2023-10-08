@@ -159,6 +159,8 @@ _User should be able to navigate to the Books page and see a list of books, a "A
 
 1. ****
 
+![Books index](image-2.png)
+
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
