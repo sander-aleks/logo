@@ -81,6 +81,7 @@ The end result should look like this:
 - [Route(): helper method](https://github.com/tighten/ziggy)
 
 
+
 ## 3. Genres - Index (Vue)
 _User should be able to navigate to the Genres page and see a list of genres, a "Add new genre" button and edit, delete actions for each individual genre._
 
@@ -125,6 +126,7 @@ Genres page
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+- [Laravel: Validation](https://laravel.com/docs/10.x/validation)
 
 ## 5. Genres - Edit & delete (Vue)
 - _By clicking on the "Edit" button user should be redirected to a edit genre form._
@@ -157,33 +159,72 @@ Genres page
 ## 6. Books - Index (Vue)
 _User should be able to navigate to the Books page and see a list of books, a "Add new book" button and edit, delete buttons for each individual book._
 
-1. ****
+1. **Add a model relation between books and genres.**
+
+
+2. **Create a books index page based on the screenshot below.**
+
+   **!!** Use the genres index page as a refrence. (Step 3.)
+    
+    The list should include: image, title, **genre**, rating for each book. (Placeholders at this step.)
+
 
 ![Books index](image-2.png)
 
 ### Resources
-- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
-- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
-- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
-
+- [Eloquent: Relationships](https://laravel.com/docs/10.x/eloquent-relationships)
+- [The Public Disk](https://laravel.com/docs/10.x/filesystem#the-public-disk)
 
 ## 7. Books - Create (Vue)
-- _By clicking on the "Edit" button user should be redirected to a edit genre form._
+- _By clicking on the "Add new" button user should be redirected to a create book form._
+- _User should be able to see validation error for the form fields when submiting an empty form_
+- _On a successful form submission, user should be redirected back to the index view and the new entry should be visible in the list._
 
 ![Alt text](image-3.png)
+
+1. **Create a form for adding new books.**
+
+    Validation rules for the form:
+    - All fields are required
+    - Rating should have a max value of 100.
+
+
+    Use the screenshot as a guide.
+
+    Refrence the genres create form for help.(Step 4.)
+
+    **!!** For image uploads read the Inertia docs on [File upload: Inertia](https://inertiajs.com/file-uploads#file-upload-example) & for server side file handling read the Laravel docs on [File upload: Laravel](https://laravel.com/docs/10.x/filesystem#file-uploads)
+
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [File upload: Inertia](https://inertiajs.com/file-uploads#file-upload-example)
+- [File upload: Laravel](https://laravel.com/docs/10.x/filesystem#file-uploads)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
-- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
+- [Laravel: Validation](https://laravel.com/docs/10.x/validation)
 
 ## 8. Books - edit & delete (Vue)
 - _By clicking on the "Edit" button user should be redirected to a edit genre form._
+- _On a successful form submission, user should be redirected back to the index view and the changed entry should be visible in the list._
+- _By clicking on the "Delete" button user should be able to delete a book from the list._
+
+1. **Add edit & delete actions for the books**
+
+    Refrence (step 5.) for help.
+
+    **!!** While updating the image for a book entry, make sure that the old image is also deleted from the storage.
+
+    Choose the correct HTTP method for the actions.
+
+    Read about [Multipart limitations](https://inertiajs.com/file-uploads#multipart-limitations) for guidance.
+
 
 
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
 - [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
+- [Multipart limitations](https://inertiajs.com/file-uploads#multipart-limitations)
+
 
 
 
