@@ -195,6 +195,7 @@ _User should be able to navigate to the Books page and see a list of books, a "A
 
     **!!** For image uploads read the Inertia docs on [File upload: Inertia](https://inertiajs.com/file-uploads#file-upload-example) & for server side file handling read the Laravel docs on [File upload: Laravel](https://laravel.com/docs/10.x/filesystem#file-uploads)
 
+2. **Replace the placeholder data in the index views list with the newly created book (make sure to include the genre)**
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [File upload: Inertia](https://inertiajs.com/file-uploads#file-upload-example)
