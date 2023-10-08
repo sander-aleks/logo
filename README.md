@@ -36,7 +36,7 @@ Make a commit & push changes to your branch after every assignment.
 The end result should be a digital library where user can add books and categorize them by genre.
 
 ## 1. Models, migrations & controllers
-The digtal library should have books categorized by genres.
+The digital library should have books categorized by genres.
 
 To achive this, do the following:
 
