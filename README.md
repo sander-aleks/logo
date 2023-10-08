@@ -105,7 +105,7 @@ Genres page
 ### Resources
 - [Creating pages example](https://inertiajs.com/pages#creating-pages)
 
-## 3. Genres - Create (Vue)
+## 4. Genres - Create (Vue)
 - _By clicking on the "Add genres" button user should be redirected to a create genres form._
 - _User should be able to see validation error for the "name" field when submiting an empty form_
 - _On a successful form submission, user should be redirected back to the index view and the new entry should be visible in the list._
@@ -118,9 +118,31 @@ Genres page
 
 3. **Submit the form to the correct controller action**
 
-4. *Replace the placeholder data in the index views list with the newly created genre*
+4. **Add validation & creation logic to to the controller action**
 
-5. **Add edit & delete actions for the list element**
+5. **Replace the placeholder data in the index views list with the newly created genre**
+
+### Resources
+- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+
+## 5. Genres - Edit & delete (Vue)
+- _By clicking on the "Edit" button user should be redirected to a edit genre form._
+- _On a successful form submission, user should be redirected back to the index view and the changed entry should be visible in the list._
+- _By clicking on the "Delete" button user should be able to delete a genre from the list._
+
+1. **Add a Edit page for the "edit genre" form and render the page using the correct controller action.**
+
+2. **Implement the form using `useForm()` helper method**
+
+    Check the inertia docs for form helper method or use Login & Register forms as a guide.
+
+3. **Submit the form to the correct controller action**
+
+4. **Add validation & updating logic to to the controller action**
+
+
+6. **Add edit & delete actions for the list element**
 
     Use the `route()` helper method to bind the `href` values.
     
@@ -128,7 +150,38 @@ Genres page
 
     **!!** Use the correct HTTP method for delete action.
 ### Resources
-[useForm(): helper method]https://inertiajs.com/forms#form-helper
+- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
+
+## 6. Books - Index (Vue)
+_User should be able to navigate to the Books page and see a list of books, a "Add new book" button and edit, delete buttons for each individual book._
+
+1. ****
+
+### Resources
+- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
+
+
+## 7. Books - Create (Vue)
+- _By clicking on the "Edit" button user should be redirected to a edit genre form._
+
+
+### Resources
+- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
+
+## 8. Books - edit & delete (Vue)
+- _By clicking on the "Edit" button user should be redirected to a edit genre form._
+
+
+### Resources
+- [useForm(): helper method](https://inertiajs.com/forms#form-helper)
+- [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
+- [Deleting Models](https://laravel.com/docs/10.x/eloquent#deleting-models)
 
 
 
