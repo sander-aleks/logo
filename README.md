@@ -53,12 +53,15 @@ To achive this, do the following:
 
     `id`,`genre_id`,`title`,`description`,`image_path`,`rating`,    `created_at`,`updated_at`
 
-3. **Create `resource` controllers for both of these models.**
+3. **Read about [Mass Assignment](https://laravel.com/docs/10.x/eloquent#mass-assignment) and adjust the models accordingly.**
+
+4. **Create `resource` controllers for both of these models.**
 
 ### Resources
 - [Generating Model Classes](https://laravel.com/docs/10.x/eloquent#generating-model-classes)
 - [Migrations:Columns](https://laravel.com/docs/10.x/migrations#main-content)
 - [Resource Controllers](https://laravel.com/docs/10.x/controllers#resource-controllers)
+- [Mass Assignment](https://laravel.com/docs/10.x/eloquent#mass-assignment)
 
 ## 2. Routes and navigation
 _**Authenticated** user should be able to see books & genres navigation elements in the navbar._
