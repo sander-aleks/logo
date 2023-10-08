@@ -130,6 +130,7 @@ Genres page
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
 - [Laravel: Validation](https://laravel.com/docs/10.x/validation)
+- [Redirecting To Named Routes](https://laravel.com/docs/10.x/responses#redirecting-named-routes)
 
 ## 5. Genres - Edit & delete (Vue)
 - _By clicking on the "Edit" button user should be redirected to a edit genre form._
