@@ -170,7 +170,7 @@ _User should be able to navigate to the Books page and see a list of books, a "A
 ## 7. Books - Create (Vue)
 - _By clicking on the "Edit" button user should be redirected to a edit genre form._
 
-
+![Alt text](image-3.png)
 ### Resources
 - [useForm(): helper method](https://inertiajs.com/forms#form-helper)
 - [Inserting & updating models](https://laravel.com/docs/10.x/eloquent#inserting-and-updating-models)
