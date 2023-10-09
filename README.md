@@ -20,6 +20,7 @@
 3. Create `.env` file based on the `.env example`
 4. Run `php artisan migrate` & `php artisan db:seed`
 5. Create a new branch with your first and last name e.g `ralf-heinsoo`
+6. Run the development server using `php artisan serve` & `npx vite`
 
 On success you should be able to log in with the following credentials:
 - E-mail: `test@user.ee`
